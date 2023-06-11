@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Ps51inBi1D5gMUYdMR7nQ21W57c=2023-03-29 13:49:362023-03-29 13:49:36</TimeStamp>
+        <ID>
+          <String>Kramse ODS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Tj5FTQPWpU+Gp75pfygZ9p/hQmI=2023-03-29 15:21:412023-03-29 13:50:02</TimeStamp>
+        <ID>
+          <String>Kramse ODS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VDF6Lqo6ySlIxY2gZ0qF7mZgATc=2023-03-29 13:50:142023-03-29 13:50:14</TimeStamp>
+        <ID>
+          <String>D Ship</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pG+Uf2JLo0BLpeVoLBoB3R9tPDs=2023-03-29 13:50:372023-03-29 13:50:37</TimeStamp>
+        <ID>
+          <String>D Container</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>r+Mu419Q+n+ul5M7Vj43WkhQTc8=2023-03-29 13:50:502023-03-29 13:50:50</TimeStamp>
+        <ID>
+          <String>D Port</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PlAk4bsdjzVKHfcsuS6vYhqvN2U=2023-03-29 14:02:232023-03-29 13:51:05</TimeStamp>
+        <ID>
+          <String>D Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CIPtUDUZRRPzdynEagu4pmNTbLk=2023-03-29 13:51:162023-03-29 13:51:16</TimeStamp>
+        <ID>
+          <String>D Consignor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>62c1R0ng4txTIrGvjRn2VdkazFQ=2023-03-29 13:51:332023-03-29 13:51:33</TimeStamp>
+        <ID>
+          <String>D Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ElpvSlyIn78vmPZGk555Gru90W4=2023-03-30 10:51:502023-03-29 13:52:11BheI3c39vFwVCBdCSsg1hcQ1OkA=2023-03-29 13:52:112023-03-29 13:52:11</TimeStamp>
+        <ID>
+          <String>Kramse ODS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>9/BkbtS56tzqTe/KNxfUTmau8pI=2023-03-29 13:48:592023-03-29 13:48:59</TimeStamp>
+      <ID>
+        <String>Cube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-03-30T08:52:07.053333Z</LastDeployed>
+</DeploymentSnapshot>

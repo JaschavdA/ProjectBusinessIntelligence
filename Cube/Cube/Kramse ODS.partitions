@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="95b60dca-0eeb-4d7a-9b57-d1adda24d81b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Kramse ODS</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>F Ship Fuel Consumption</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="36c590d9-c71b-46a0-9d7b-db96d7232407">
+          <ID>F Ship Fuel Consumption</ID>
+          <Name>F Ship Fuel Consumption</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bfcb68bd-cfb3-414d-bb25-80470b8f04e9">
+            <DataSourceViewID>Kramse ODS</DataSourceViewID>
+            <TableID>dbo_F_ShipFuelConsumption</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>F Ship Port Stay</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d86e91aa-529d-4a7d-9604-56bdfc430c9d">
+          <ID>F Ship Port Stay</ID>
+          <Name>F Ship Port Stay</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d2d6ff60-ffb3-4abc-ac0a-37cd9aa83776">
+            <DataSourceViewID>Kramse ODS</DataSourceViewID>
+            <TableID>dbo_F_ShipPortStay</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>F Voyage Shipment</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="276dbd4b-54e8-461a-aa2d-40468b1f17c6">
+          <ID>F Voyage Shipment</ID>
+          <Name>F Voyage Shipment</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1acbfdcc-c9fa-4b1e-a753-b509d736a9f2">
+            <DataSourceViewID>Kramse ODS</DataSourceViewID>
+            <TableID>dbo_F_VoyageShipment</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
